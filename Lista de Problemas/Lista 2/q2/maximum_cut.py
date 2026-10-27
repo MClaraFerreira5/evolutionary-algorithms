@@ -92,7 +92,6 @@ class MaximunCut:
 
         return children
 
-
     def evolution(self):
         self.iniciate_population()
         for _ in range(self.generation):
@@ -104,12 +103,5 @@ class MaximunCut:
         print(f"Melhor indivíduo (turnos): {best_individual}")
         print(f"Congestionamento total (Fitness): {self.fitness(best_individual):.4f}")
 
-        
-
 test = MaximunCut()
 test.evolution()
-
-
-
-
-
