@@ -115,10 +115,7 @@ class GraphColouring:
         quant_horarios = len(set(best_individual))
 
         conflitos_finais = self.count_conflicts(best_individual)
-        print(f"Melhor indivíduo: {best_individual}")
-        print(f"Status: {'VÁLIDA (Sem conflitos)' if conflitos_finais == 0 else 'INVÁLIDA'}")
-        print(f"Quantidade de conflitos: {conflitos_finais}")
-        print(f"Quantidade de horários: {quant_horarios}")
+        pri 
 
 test = GraphColouring()
 test.evolution()
